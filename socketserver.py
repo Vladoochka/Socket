@@ -65,17 +65,6 @@ def generate_content(code, url, method):
             return url
     if code == 201:
         return url
-# def generate_content(code, url):
-#     if code == 404:
-#         return '{}'
-#     if code == 400:
-#         return '{"error": "Missing password"}'
-#     if code == 204:
-#         return ' '
-#     if code == 200:
-#         return '{}'.format(URLS[url])
-#     if code == 201:
-#         return '{}'
 
 
 def generate_response(request):
